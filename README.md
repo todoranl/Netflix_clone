@@ -1,4 +1,4 @@
-# GitHub Codespaces ♥️ React
+# GitHub Codespaces ♥️ React LINK https://netflix-clone-nu-ivory.vercel.app/
 
 Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.
 
