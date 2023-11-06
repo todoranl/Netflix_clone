@@ -1,0 +1,55 @@
+/* Row.css */
+
+/* Row.css or your custom CSS file */
+.container {
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+}
+.movie-card {
+  width: 18em; /* Adjust the width to fit 5 movies in a row */
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  transition: transform 0.2s;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  transition: transform 0.2s; /* Add a smooth transition effect */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Add a smooth transition effect */
+
+  &:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    z-index: 1; /* Bring the hovered card to the top */
+  }
+  /* Center the logo vertically */
+}
+
+.movie-card img {
+  width: 20em;
+  /* Make the image slightly wider */
+  height: auto; /* Maintain the image aspect ratio */
+}
+/* Target the specific <h1> element with a class */
+/* Target the specific <h1> element with a class */
+.custom-heading {
+  font-size: 35px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left;
+  padding-left: 40px; /* Adjust the value to control the left indentation */
+  margin: 20px 0;
+  background-color: #000000;
+}
+
+.movie-card .movie-image .movie-logo {
+  position: absolute;
+  top: 10px; /* Adjust the vertical position of the logo */
+  left: 10px; /* Adjust the horizontal position of the logo */
+  max-width: 80px; /* Adjust the maximum width of the logo */
+  height: auto;
+  z-index: 1; /* Bring the logo to the front */
+}
+/* Row.css or your custom CSS file */
